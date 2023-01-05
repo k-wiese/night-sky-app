@@ -27,5 +27,5 @@ const constellationSchema =  new Schema({
 });
 
 const Constellation = mongoose.model('Constellation', constellationSchema);
-
+ 
 module.exports = Constellation;
